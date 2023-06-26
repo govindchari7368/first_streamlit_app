@@ -1,7 +1,2 @@
 # requirements.txt
-altair
-pandas
-streamlit
-snowflake
-
 snowflake-connector-python
