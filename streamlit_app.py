@@ -34,7 +34,7 @@ def get_fruityvice_data(this_fruit_choice):
     fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
     return fruityvice_normalized
 # output if the screen as a table
-streamlit.dataframe(back_from_function)
+streamlit.dataframe(fruityvice_normalized)
 
     
 streamlit.header("The fruit load list contains:")
