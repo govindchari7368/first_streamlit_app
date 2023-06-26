@@ -4,7 +4,7 @@ import requests
 import snowflake 
 import snowflake.connector
 from urllib.error import URLError
-pip3 uninstall snowflake 
+ 
 
 streamlit.title('My Parents New Healthy Diner')
 
